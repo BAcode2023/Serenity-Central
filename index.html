@@ -1,123 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Serenity Central</title>
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-        rel="stylesheet"/>
-        <link rel="stylesheet" href="./assests/main.css">
-        <link>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Central - Retreat & Wellness</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assests/main.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <div>SCR</div>
+            </div>
+            <ul class="nav__links">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="events.html" class="nav__link">Events</a></li>
+                <li><a href="aboutus.html" class="nav__link">About Us</a></li>
+                <li><a href="registration.html" class="nav__link nav__button">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    </head>
-    <body>
-            <nav>
-                <div class="nav_bar">
-                    <div class="nav_header">
-                        <div class="log nav_log">
-                            <div>SCR</div>
-                        </div>
-                        <div class="nav__menu__btn" id="menu-btn">
-                            <i class="ri-menu-line"></i>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="index.html"> Home </a>
-                        </li>
-                        <li>
-                            <a href="Events.html"> Events </a>
-                        </li>
-                        <li>
-                            <a href="AboutUs.html"> About Us </a>
-                        </li>
-                        <button>
-                            <a href="Registration.html">Registration</a>
-                        </button>
-                    </ul>
-                </div>
-            </nav>
-        <header class="header" id="home">
-            <div class="section_header header_container">
-                <h1> Welcome To Serenity Central!</h1>
-                <h3>
-                    <p>A place to discover your spiritual energy and inner peace!</p>
-                </h3>
-            </div>   
-        </header>
-        <section>
-            <h2>
-                <p></p>
-            </h2>
-            <div>
-                <img src="assests/images/IMG_1419.jpeg" alt="rooms">
-                <img src="assests/images/IMG_1421.jpeg" alt="rooms">
-                <img src="assests/images/IMG_1424.jpeg" alt="rooms">
-                <img src="assests/images/IMG_1426.jpeg" alt="rooms">
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Welcome to Serenity Central</h1>
+            <p class="hero__subtitle">Discover your spiritual energy and inner peace in a tranquil retreat.</p>
+            <a href="registration.html" class="btn btn--primary">Book Your Stay</a>
+        </div>
+    </header>
+
+    <!-- Retreat Highlights Section -->
+    <section class="highlights">
+        <h2 class="section__title">Explore Our Retreat</h2>
+        <div class="highlights__grid">
+            <div class="highlight">
+                <img src="assests/images/IMG_1419.jpeg" alt="Room" class="highlight__image">
+                <h3 class="highlight__title">Relaxing Rooms</h3>
             </div>
-            <div>
-                <a href="#"> Events for Fall 2024 </a>
-                <a href="#">Registration for events</a>
+            <div class="highlight">
+                <img src="assests/images/IMG_1421.jpeg" alt="Event Space" class="highlight__image">
+                <h3 class="highlight__title">Event Spaces</h3>
             </div>
-        </section>
-        <section>
-            <h2>Founders</h2>
-            <h3>
-            think about images and description
-            </h3>
-        </section>
-        <footer class="footer">
-            <div class="section__container footer__container">
-              <div class="footer__col">
-                <div class="logo footer__logo">
-                  <div>SCR</div>
-                  <span>Serenity central</span>
+            <div class="highlight">
+                <img src="assests/images/IMG_1424.jpeg" alt="Scenery" class="highlight__image">
+                <h3 class="highlight__title">Breathtaking Scenery</h3>
+            </div>
+            <div class="highlight">
+                <img src="assests/images/IMG_1426.jpeg" alt="Activities" class="highlight__image">
+                <h3 class="highlight__title">Holistic Activities</h3>
+            </div>
+        </div>
+        <div class="highlights__actions">
+            <a href="#" class="btn btn--secondary">Events for Fall 2024</a>
+            <a href="#" class="btn btn--secondary">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <div>SCR</div>
+                    <span>Serenity Central Retreat</span>
                 </div>
-                <p class="section__description">
-                  add something maybe
-                </p>
-                <!--add socials if they have it-->
-              <!--  <ul class="footer__socials">
-                    <li>
-                        <a href="#"><i class="ri-facebook-fill"></i></a>
-                    </li>
-                </ul> -->
-              </div> 
-              <div class="footer__col">
+                <p class="footer__text">Find peace and purpose at Serenity Central, your sanctuary away from the chaos of everyday life.</p>
+            </div>
+            <div class="footer__col">
                 <h4>Contact Us</h4>
-                <div class="footer__links">
-                  <li>
-                    <span><i class="ri-phone-fill"></i></span>
-                    <div>
-                      <h5>Phone Number</h5>
-                      <p>will add</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span><i class="ri-record-mail-line"></i></span>
-                    <div>
-                        <h5>Email</h5>
-                        <p>info@dumainehouse.com</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span><i class="ri-map-pin-2-fill"></i></span>
-                    <div>
-                      <h5>Location</h5>
-                      <p>Serenity Central <br/>
-                        P O Box 557 <br/>
-                        Jacksonville, Vt. 05342</p>
-                    </div>
-                  </li>
-                </div>
-              </div>
+                <ul class="footer__contact">
+                    <li>
+                        <i class="ri-phone-fill"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-mail-line"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@serenitycentral.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-map-pin-fill"></i>
+                        <div>
+                            <h5>Location</h5>
+                            <p>Serenity Central<br>P.O. Box 557, Jacksonville, VT 05342</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="footer__bar">
-              Copyright © 2024 Serentity Central. All rights reserved.
-            </div>
-          </footer>
-      
-          <script src="https://unpkg.com/scrollreveal"></script>
-          <script src="./main.js"></script>
-    </body>
+        </div>
+        <div class="footer__bar">
+            <p>© 2024 Serenity Central. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+</body>
 </html>

@@ -1,66 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Events</title>
-        <link>
-        <link>
-        <link>
-
-    </head>
-    <body>
-        <header>
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <a href="index.html"> Home </a>
-                    </li>
-                    <li>
-                        <a href="Events.html"> Events </a>
-                    </li>
-                    <li>
-                        <a href="AboutUs.html"> About Us </a>
-                    </li>
-                    <button>
-                        <a href="Registration.html">Registration</a>
-                    </button>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Serenity Central</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assests/main.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__logo">SCR</div>
+                <ul class="nav__links">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="events.html" class="nav__link">Events</a></li>
+                    <li><a href="aboutus.html" class="nav__link">About Us</a></li>
+                    <li><a href="registration.html" class="nav__link nav__button">Registration</a></li>
                 </ul>
-            </nav>
-        </header>
-        <div  class="">
-            <h2>Fall 2024 Schedule</h2>
-            <ul>
-                <li>
-                    <h3>Event 1</h3>
-                    <p>Description of event</p>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Events Section -->
+    <main class="events">
+        <section class="events__schedule">
+            <h2 class="section__title">Fall 2024 Schedule</h2>
+            <ul class="events__list">
+                <li class="event">
+                    <h3 class="event__title">Event 1</h3>
+                    <p class="event__description">Description of event</p>
                 </li>
-                <li>
-                    <h3>Event 2</h3>
-                    <p>Description of event</p>
+                <li class="event">
+                    <h3 class="event__title">Event 2</h3>
+                    <p class="event__description">Description of event</p>
                 </li>
-                <li>
-                    <h3>Event 3</h3>
-                    <p>Description of event</p>
+                <li class="event">
+                    <h3 class="event__title">Event 3</h3>
+                    <p class="event__description">Description of event</p>
                 </li>
-                <li>
-                    <h3>Event 4</h3>
-                    <p>Description of event</p>
+                <li class="event">
+                    <h3 class="event__title">Event 4</h3>
+                    <p class="event__description">Description of event</p>
                 </li>
             </ul>
-        </div>
-        <div>
-            <h2>Coming Soon: Spring 2025 Schedule</h2>
-        </div>
+        </section>
 
-        <a href="Registration.html">Register for events</a>
-        <footer>
-            social media <br>
-            nav bar <br>
-            address<br>
-            copyright
+        <section class="events__coming-soon">
+            <h2 class="section__title">Coming Soon: Spring 2025 Schedule</h2>
+        </section>
 
-        </footer>
-        <script></script>
-    </body>
+        <div class="events__register">
+            <a href="registration.html" class="btn btn--primary">Register for Events</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <div>SCR</div>
+                    <span>Serenity Central Retreat</span>
+                </div>
+                <p class="footer__text">Find peace and purpose at Serenity Central, your sanctuary away from the chaos of everyday life.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Contact Us</h4>
+                <ul class="footer__contact">
+                    <li>
+                        <i class="ri-phone-fill"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-mail-line"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@serenitycentral.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-map-pin-fill"></i>
+                        <div>
+                            <h5>Location</h5>
+                            <p>Serenity Central<br>P.O. Box 557, Jacksonville, VT 05342</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bar">
+            <p>© 2024 Serenity Central. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
 </html>
