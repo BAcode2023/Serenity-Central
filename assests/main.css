@@ -487,5 +487,17 @@ ul {
     margin-left: 100px;
 }
 
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #f9f9f9;
+    padding: .1em .1em;
+}
 
-
+.container3 img {
+    max-width: 100px;
+    height: auto;
+    padding: .2em .2em;
+}
