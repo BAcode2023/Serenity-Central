@@ -501,3 +501,9 @@ ul {
     height: auto;
     padding: .2em .2em;
 }
+
+.info{
+    color: #2d89ef;
+    padding-top: .5em;
+    margin-top: .5em;
+}
