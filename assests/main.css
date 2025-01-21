@@ -372,6 +372,7 @@ ul {
     color: #444;
     font-size: 1rem;
     line-height: 1.6;
+    text-align: center;
 }
 
 .event-info strong {
@@ -392,7 +393,6 @@ ul {
     margin-top: 1em;
     padding: 1em;
     background-color: #eaf2f8;
-    border-left: 4px solid #2d89ef;
     border-radius: 4px;
     font-size: 0.9rem;
 }
@@ -508,4 +508,8 @@ ul {
     color: #2d89ef;
     padding-top: .5em;
     margin-top: .5em;
+}
+
+.hidden {
+    display: none;
 }
