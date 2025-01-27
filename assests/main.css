@@ -513,3 +513,30 @@ ul {
 .hidden {
     display: none;
 }
+
+.payment {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 259px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.payment a{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #006aff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+}
