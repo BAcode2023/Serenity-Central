@@ -546,6 +546,6 @@ ul {
     color: #555;
     line-height: 1.8;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0rem 0rem 0rem 10rem;
     text-align: center;
 }
