@@ -540,3 +540,29 @@ ul {
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
 }
+
+.text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    /* Styles for smaller screens (tablets) */
+
+    .header-nav ul { 
+
+        display: none; 
+
+    }
+
+    .header-nav .menu-button { 
+
+        display: block; 
+
+    }
+
+}
