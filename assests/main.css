@@ -562,17 +562,21 @@ ul {
     display: flex;
 }
 
-iframe{
-    margin-left: 5rem;
-    margin-right: 2rem;
-    
+.video iframe,
+.video img{
+    width: 33.33%;
 }
 
+iframe{
+    margin-left: 10rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
 
 .birthday{
     width: 50%;
     height: 20%;
-    margin-left: -0.5rem; 
+    margin-left: 10rem; 
     margin-top: 1rem; 
 }
 
