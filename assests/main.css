@@ -549,3 +549,14 @@ ul {
     margin: 0rem 0rem 0rem 10rem;
     text-align: center;
 }
+
+.title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+iframe{
+    margin: 1rem 1rem 1rem 30rem;  
+}
+
