@@ -74,3 +74,4 @@ function showCheckoutWindow(e) {
   document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
     showCheckoutWindow(e);
   });
+

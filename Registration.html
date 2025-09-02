@@ -87,7 +87,18 @@
                 <label for="address">Address:</label>
                 <input type="text" id="address" name="address" placeholder="123 Main St, City, State, ZIP" required>
 
-                <input type="checkbox" name="botcheck" placeholder="#" class="hidden">
+                <p>May SCNE contact you about future events?</p>
+                <fieldset>
+                <div>
+                    <input type="checkbox" id="med-only" name="interest" value="Meditation-only" />
+                    <label for="coding">Meditation only</label>
+                </div>
+                <div>
+                <input type="checkbox" id="all-events" name="interest" value="All-events" />
+                <label for="coding">All events</label>
+                </div>
+               
+            </fieldset>
                 <!-- Submit Button -->
                 <button class="submit-btn" type="submit">Submit</button>
 
