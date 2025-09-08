@@ -647,7 +647,7 @@ iframe{
 
 .event-card img.event-image {
     width: 100%;
-    height: 520px;
+    height: 100px;
     object-fit: cover;
 }
 
