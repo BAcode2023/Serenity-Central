@@ -1,1 +1,266 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Serenity Central</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assests/main.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="my-nav">
+            <div class="nav__container">
+                <div class="nav__logo">
+                    <div class="logo"><a href="index.html"><img src="assests/images/IMG_1337.jpg" alt="lotus flower"> </a> </div>
+                </div>
+                <ul class="my-nav__links">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="Events.html" class="nav__link">Events</a></li>
+                    <li><a href="AboutUs.html" class="nav__link">About Us</a></li>
+                    <li><a href="Registration.html" class="nav__link nav__button">Registration</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Events Section -->
+    <main class="events">
+
+
+
+  <section class="events__schedule">
+            <h2 class="section__title">Winter 2025 Schedule</h2>
+            <ul class="events__list">
+                <li class="event">
+                    <h3 class="event__title">Opening the Door to the Inner Self</h3>
+                    <p>Date: January 16th - 18th 2026</p>
+                    <p class="event__description"> Serenity Central of New England </p>
+                </li>
+                
+                
+            </ul>
+  </section>
+        
+        <section class="events__schedule">
+            <h2 class="section__title">Fall 2025 Schedule</h2>
+            <ul class="events__list">
+                <li class="event">
+                    <h3 class="event__title">Meditation Session w/the Green Mountain Monk</h3>
+                    <p>Date: September 26 2025</p>
+                    <p class="event__description"> 4-5:30 pm @ the Brattleboro Library ( Brooks library). </p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Open House 11:30am-4pm</h3>
+                    <p>Date: October 5 2025</p> 
+                    <p class="event__description"> Come join us on a tour of our center and learn about the events we put on for New England</p>
+                </li>
+                <li class="event"> 
+                    <h3 class="event__title">Board of Directors Meeting</h3>
+                    <p>Date: October 9 2025</p>
+                    <p class="event__description"> Come join us to learn about our mission from the Board of Directors</p>
+                </li>
+                <li class="event">
+                    
+                    <h3 class="event__title">Volunteer Work Day 9am-3pm</h3>
+                    <p>Date: October 11 2025</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Koinonia Gathering of St Mary’s in the Mountains</h3>
+                    <p>Date: November 2 2025</p>
+                </li>
+                
+            </ul>
+        </section>
+
+        <section class="events__schedule">
+            <h2 class="section__title">Spring/Summer 2025 Schedule</h2>
+            <ul class="events__list">
+                <li class="event">
+                    <h3 class="event__title">A Day of Meditation and Yoga</h3>
+                    <p>Dates: March 9th</p>
+                    <p class="event__description"> Led by Theraveda Monk, Bhante and Kundalini Yoga Master, Lou gil</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Men's Intensive AA Retreat</h3>
+                    <p>Date: March 14-16 & March 21-23</p>
+                    <p class="event__description">For a select group of men seeking continued sober living, and emotional sobriety </p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Women's Intensive AA Retreat</h3>
+                    <p>Date: April 25-27</p>
+                    <p class="event__description"> For a select group of women seeking continued sober living, and emotional sobriety 
+                    </p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Women's Intensive AA Retreat</h3>
+                    <p>Date: May 2-4</p>
+                    <p class="event__description">For a select group of women seeking continued sober living, and emotional sobriety </p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">The Presence Process-A Pathway to Present Moment Awareness</h3>
+                    <p>Date: May 23-27</p>
+                    <p class="event__description">This unique retreat, first time offered in the United States,will engage participants in a beautiful and gentle process which relies on connected breathing meditation, and a rich array of techniques to integrate and heal the child-self.</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Dances of Universal Peace</h3>
+                        <p>Date: May 29 2025</h1>
+                      <p class="event__description"> Offering a special dance circle at Serenity Central of New England. Dance movement, meditation and chanting will be available to the public from 6:30-8:00 PM. No prior dance experience necessary. 
+                        All participants will be taught/coached. Recommended donation is $10, but not required</p>
+                    <p>More information: hopejourney@aol.com</p>
+                </li>
+                 <li class="event">
+                    <h3 class="event__title">Buddha Day</h3>
+                    <p>Date: June 8</p>
+                    <p class="event__description">To Celebrate Buddha's Birth, Enlightenment and Passing  </p>
+                    <p>From 9am-3pm with food provided</p>
+                    <p>RSVP and More info: GreenMountainMonk@gmail.com</p>
+                 </li>
+                <li class="event">
+                    <h3 class="event__title">Men's Intensive AA Retreat</h3>
+                    <p>Date: June 13-15 & June 20-22</p>
+                    <p class="event__description">For a select group of men seeking continued sober living, and emotional sobriety. </p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Dances for Universal Peace </h3>
+                    <p>Date: August 15-17</p>
+                    <p class="event__description">A very special and tremendously talented dance group will be demonstrating their unique works of art at Serenity Central. They are inviting local dancers or movement specialists to participate in weekend activities. </p>
+                    <p>More Information: hopejourney@aol.com</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Meditation Class</h3>
+                    <p>Date: August 18</p>
+                    <p class="event__description">Come join Bhante Rasthana at 4-5:30pm for a mindfulness meditation class at Brooks Library Brattleboro</p>
+                </li>
+                    <li class="event">
+                    <h3 class="event__title">Meditation Class</h3>
+                    <p>Date: August 25</p>
+                    <p class="event__description">Come join Bhante Rasthana at 3-5:30pm for a mindfulness meditation class at Brattleboro Coop Community Room</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">A Course in Miracles</h3>
+                    <p>Date: August 29-September 3</p>
+                    <p class="event__description">This special event will feature deep examination of the Jesus inspired text which our world has been waiting for. Readings, conversations and lessons will focus on the true nature of human beings as Spirit seeking Oneness with Christ Consciousness. And the ultimate message of true Forgiveness </p>
+                </li>
+            </ul>
+        </section>
+       <!--<section class="events__schedule">
+            <h2 class="section__title">Fall 2024 Schedule</h2>
+            <ul class="events__list">
+                <li class="event">
+                    <h3 class="event__title">Men's Intensive 12-Step Retreats</h3>
+                    <p>Dates: Sept 13-15 & Sept 20-22</p>
+                    <p class="event__description">Open to members of designated AA
+                        groups from New England and New York.</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Meditation Weekend</h3>
+                    <p>Date: Sept 28-30</p>
+                    <p class="event__description">Enjoy peak Vermont foliage and peak spiritual awareness in long moments of
+                        silence. This two-day retreat will be led
+                        by Theravada Buddhist master, Monk
+                        Bhante Rathana from Sri Lanka. The focus will be on personal spiritual
+                        awareness through meditation, spiritual
+                        reading and long moments of silent
+                        contemplation.</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">The Presence Process</h3>
+                    <p>Date: Oct 11-14</p>
+                    <p class="event__description">This retreat amid Vermont’s Green
+                        Mountains will offer a progressive
+                        process for acquiring present moment
+                        awareness, a successful means of
+                        integrating emotional experience into
+                        full awareness of our true Presence.
+                        A marvelous set of emotional tools will
+                        be presented which help us to escape “a
+                        mentally-driven nightmare” in which we
+                        recoil from ghosts of the past and
+                        imagined phantoms from our future.
+                        <b>Purpose:</b> learning to trust our Divine
+                        Inner Presence and healing our inner
+                        child.</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Out of the Matrix Retreat — Vermont</h3>
+                    <p>Date: Oct 18-20</p>
+                    <p class="event__description">A retreat based on the principles of A
+                        Course in Miracles, led by Rev. Tony Senf.
+                        “The Matrix” — the world in which we
+                        live, is evolving at an alarming rate.
+                        How do we maintain peace and
+                        happiness and the message of Love in a
+                        world where hate and pretense are more
+                        valued?</p>
+                </li>
+                <li class="event">
+                    <h3 class="event__title">Meditation Weekend (Silent Retreat)</h3>
+                    <p>Date: Nov 2-3</p>
+                    <p class="event__description">A serene weekend amid the Vermont
+                        woods. Meditation with a Theravada
+                        Buddhist master, Monk Bhante Rathana
+                        from Sri Lanka.</p>
+                </li>
+            </ul>
+        </section>
+       
+        <section class="events__Info">
+            <h2 class="section__title">More information on events</h2>
+            <ul class="info">
+                <li><a href="Dumaine House - Fall Retreats FULL 2024 (1).pdf">Fall Retreats 2024</a></li>
+                <li><a href="Dumaine house - Fall retreats registration (1).pdf">Fall Retreats Pricing 2024</a></li>
+            </ul>
+        </section>
+        <br> --> 
+        <div class="events__register">
+            <a href="Registration.html" class="btn btn--primary">Register for Events</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <span>Serenity Central of New England</span>
+                </div>
+                <p class="footer__text">Find peace and purpose at Serenity Central, your sanctuary away from the chaos of everyday life.</p>
+            </div>
+            <div class="footer__col">
+                <h4>Contact Us</h4>
+                <ul class="footer__contact">
+                    <li>
+                        <i class="ri-phone-fill"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>+1 (802) 368-2015</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-mail-line"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@serenitycentralofnewengland.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ri-map-pin-fill"></i>
+                        <div>
+                            <h5>Location</h5>
+                            <p>Serenity Central<br>267 Academy Road, Jacksonville, VT 05342</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bar">
+            <p>© 2024 Serenity Central of New England. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
