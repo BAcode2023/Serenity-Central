@@ -1,165 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registration - Serenity Central</title>
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
-        <link rel="stylesheet" href="./assests/main.css">
-    </head>
-    <body>
-        <header>
-            <nav class="my-nav">
-                <div class="nav__container">
-                    <div class="nav__logo">
-                        <div class="logo"><a href="index.html"><img src="assests/images/IMG_1337.jpg" alt="lotus flower"> </a> </div>
-                    </div>
-                    <ul class="my-nav__links">
-                        <li><a href="index.html" class="nav__link">Home</a></li>
-                        <li><a href="Events.html" class="nav__link">Events</a></li>
-                        <li><a href="AboutUs.html" class="nav__link">About Us</a></li>
-                        <li><a href="Registration.html" class="nav__link nav__button">Registration</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    
-        <section class="event-registration">
-            <div class="event-info">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration - Serenity Central</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="my-nav">
+        <div class="nav__container">
+          <div class="nav__logo">
+            <div class="logo">
+              <a href="index.html"
+                ><img src="assests/images/IMG_1337.jpg" alt="lotus flower" />
+              </a>
+            </div>
+          </div>
+          <ul class="my-nav__links">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="Events.html" class="nav__link">Events</a></li>
+            <li><a href="AboutUs.html" class="nav__link">About Us</a></li>
+            <li>
+              <a href="Registration.html" class="nav__link nav__button"
+                >Registration</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="event-registration">
+      <div class="event-info">
+        <p>
+          For events, we require a deposit of <strong>$500</strong><br />
+          You can send it via mail:<br />
+        </p>
+        <div class="event-location">
+          <h5>Location</h5>
+          <p>
+            Serenity Central <br />
+            267 Academy Road P.O. Box 557 <br />
+            Jacksonville, VT 05342
+          </p>
+        </div>
+        <p>
+          Or use Square below.<br />
+          For questions, email
+          <a href="mailto:info@serenitycentralofnewengland.com"
+            >info@serenitycentralofnewengland.com</a
+          >
+        </p>
+        <p>
+          Make sure you fill out the form because we do send information to you
+          by mail for some Retreats
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2 class="form-title">Event Registration Form</h2>
+      <form
+        class="registration-form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="c59ffe0b-cadb-4f36-a411-096dc2c25593"
+        />
+        <!-- Event Dropdown -->
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+          <option value="">-- Choose an Event --</option>
+          <option value="Men's Intensive 12-Step Retreat">
+            Men's Intensive 12-Step Retreats
+          </option>
+          <option value="Meditation Weekend">Meditation Weekend</option>
+          <option value="he Presence Process">The Presence Process</option>
+          <option value="Out of the Matrix Retreat — Vermont">
+            Out of the Matrix Retreat — Vermont
+          </option>
+          <option value="Meditation Weekend (Silent Retreat)">
+            Meditation Weekend (Silent Retreat)
+          </option>
+          <option value="A Day of Meditation and Yoga">
+            A Day of Meditation and Yoga
+          </option>
+          <option value="Men's intensive AA Retreat">
+            Men's intensive AA Retreat
+          </option>
+          <option value="Women's Intensive AA Retreat">
+            Women's Intensive AA Retreat
+          </option>
+          <option
+            value="The Presence Process-A Pathway to Present Moment Awareness"
+          >
+            The Presence Process-A Pathway to Present Moment Awareness
+          </option>
+          <option value="Save the Date! Holy Dissent">
+            Save the Date! Holy Dissent
+          </option>
+          <option value="Dances for Universal Peace">
+            Dances for Universal Peace
+          </option>
+          <option value="A Course In Miracles">A Course In Miracles</option>
+          <option value="Buddha Day">Buddha Day</option>
+          <option value="Mindfulness Class">Meditation Class</option>
+        </select>
+
+        <!-- Event Date -->
+        <label for="date">Event Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <!-- User Information -->
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="John Doe"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="123-456-7890"
+          required
+        />
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@example.com"
+          required
+        />
+
+        <label for="address">Address:</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="123 Main St, City, State, ZIP"
+          required
+        />
+
+        <p>May SCNE contact you about future events?</p>
+        <fieldset>
+          <div>
+            <input
+              type="checkbox"
+              id="med-only"
+              name="interest"
+              value="Meditation-only"
+            />
+            <label for="coding">Meditation only</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="all-events"
+              name="interest"
+              value="All-events"
+            />
+            <label for="coding">All events</label>
+          </div>
+        </fieldset>
+        <!-- Submit Button -->
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+
+      <br />
+      <form class="registration-form" action="/submit" method="post">
+        <!-- Payment Section: add in squares check out button -->
+        <h3 class="payment-title">Square Payment Check Out</h3>
+        <p>This is where you pay the deposit</p>
+        <p>This is area is not for the Presence Process Retreat</p>
+        <div class="payment">
+          <a
+            rel="noopener"
+            target="_blank"
+            data-url="https://square.link/u/cpfj0nUc?src=embd"
+            href="https://square.link/u/cpfj0nUc?src=embed"
+            >Pay now</a
+          >
+        </div>
+      </form>
+    </section>
+    <br />
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <span>Serenity Central of New England</span>
+          </div>
+          <p class="footer__text">
+            Find peace and purpose at Serenity Central, your sanctuary away from
+            the chaos of everyday life.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__contact">
+            <li>
+              <i class="ri-phone-fill"></i>
+              <div>
+                <h5>Phone Number</h5>
+                <p>+1 (802) 368-2015</p>
+              </div>
+            </li>
+            <li>
+              <i class="ri-mail-line"></i>
+              <div>
+                <h5>Email</h5>
+                <p>info@serenitycentralofnewengland.com</p>
+              </div>
+            </li>
+            <li>
+              <i class="ri-map-pin-fill"></i>
+              <div>
+                <h5>Location</h5>
                 <p>
-                    For events, we require a deposit of <strong>$500</strong><br>
-                    You can send it via mail:<br/>
+                  Serenity Central<br />267 Academy Road, Jacksonville, VT 05342
                 </p>
-                <div class="event-location">
-                    <h5>Location</h5>
-                    <p>Serenity Central <br/>
-                       267 Academy Road
-                       P.O. Box 557 <br/>
-                       Jacksonville, VT 05342
-                    </p>
-                </div>
-                <p>
-                    Or use Square below.<br>
-                    For questions, email <a href="mailto:info@serenitycentralofnewengland.com">info@serenitycentralofnewengland.com</a>
-                </p>
-                <p> Make sure you fill out the form because we do send information to you by mail for some Retreats
-                </p>
-            </div>
-        </section>
-        <section>    
-            <h2 class="form-title">Event Registration Form</h2>
-            <form class="registration-form" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="c59ffe0b-cadb-4f36-a411-096dc2c25593">
-                <!-- Event Dropdown -->
-                <label for="event">Select Event:</label>
-                <select id="event" name="event" required>
-                    <option value="">-- Choose an Event --</option>
-                    <option value="Men's Intensive 12-Step Retreat">Men's Intensive 12-Step Retreats</option>
-                    <option value="Meditation Weekend">Meditation Weekend</option>
-                    <option value="he Presence Process">The Presence Process</option>
-                    <option value="Out of the Matrix Retreat — Vermont">Out of the Matrix Retreat — Vermont</option>
-                    <option value="Meditation Weekend (Silent Retreat)">Meditation Weekend (Silent Retreat)</option>
-                    <option value="A Day of Meditation and Yoga">A Day of Meditation and Yoga</option>
-                    <option value="Men's intensive AA Retreat"> Men's intensive AA Retreat</option>
-                    <option value="Women's Intensive AA Retreat">Women's Intensive AA Retreat</option>
-                    <option value="The Presence Process-A Pathway to Present Moment Awareness">The Presence Process-A Pathway to Present Moment Awareness</option>
-                    <option value="Dances for Universal Peace">Dances for Universal Peace</option>
-                    <option value="A Course In Miracles">A Course In Miracles</option>
-                    <option value="Buddha Day">Buddha Day</option>
-                    <option value="Mindfulness Class">Meditation Class</option>
-                </select>
-        
-                <!-- Event Date -->
-                <label for="date">Event Date:</label>
-                <input type="date" id="date" name="date" required>
-        
-                <!-- User Information -->
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="John Doe" required>
-        
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
-        
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="example@example.com" required>
-        
-                <label for="address">Address:</label>
-                <input type="text" id="address" name="address" placeholder="123 Main St, City, State, ZIP" required>
-
-                <p>May SCNE contact you about future events?</p>
-                <fieldset>
-                <div>
-                    <input type="checkbox" id="med-only" name="interest" value="Meditation-only" />
-                    <label for="coding">Meditation only</label>
-                </div>
-                <div>
-                <input type="checkbox" id="all-events" name="interest" value="All-events" />
-                <label for="coding">All events</label>
-                </div>
-               
-            </fieldset>
-                <!-- Submit Button -->
-                <button class="submit-btn" type="submit">Submit</button>
-
-
-            </form>
-            
-            <br>
-            <form class="registration-form" action="/submit" method="post">
-                <!-- Payment Section: add in squares check out button -->
-                <h3 class="payment-title">Square Payment Check Out</h3>
-                <p> This is where you pay the deposit</p>
-                <p>This is area is not for the Presence Process Retreat</p>
-                <div class="payment">
-                  <a rel="noopener" target="_blank" data-url="https://square.link/u/cpfj0nUc?src=embd" href="https://square.link/u/cpfj0nUc?src=embed">Pay now</a>
-                </div>
-            </form>
-        </section>
-        <br>
-        
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="footer__content">
-                <div class="footer__col">
-                    <div class="footer__logo">
-                        <span>Serenity Central of New England</span>
-                    </div>
-                    <p class="footer__text">Find peace and purpose at Serenity Central, your sanctuary away from the chaos of everyday life.</p>
-                </div>
-                <div class="footer__col">
-                    <h4>Contact Us</h4>
-                    <ul class="footer__contact">
-                        <li>
-                            <i class="ri-phone-fill"></i>
-                            <div>
-                                <h5>Phone Number</h5>
-                                <p>+1 (802) 368-2015</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="ri-mail-line"></i>
-                            <div>
-                                <h5>Email</h5>
-                                <p>info@serenitycentralofnewengland.com</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="ri-map-pin-fill"></i>
-                            <div>
-                                <h5>Location</h5>
-                                <p>Serenity Central<br>267 Academy Road, Jacksonville, VT 05342</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__bar">
-                <p>© 2024 Serenity Central of New England. All rights reserved.</p>
-            </div>
-        </footer>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <p>© 2024 Serenity Central of New England. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
-        <script></script>
-    </body>
+    <script></script>
+  </body>
 </html>
