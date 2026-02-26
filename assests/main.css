@@ -72,10 +72,11 @@ ul {
 }
 
 /* Navigation Styles */
-.logo img{
+.logo img {
     width: 2em;
     height: 1.5em;
 }
+
 .my-nav {
     background: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -127,7 +128,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    background:url("./images/IMG_1396.jpeg") no-repeat center center/cover;
+    background: url("./images/IMG_1396.jpeg") no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 6em 2em;
@@ -465,26 +466,33 @@ ul {
 
 /* Fieldset checkboxes */
 fieldset {
-    border: none; /* optional, remove default fieldset border */
+    border: none;
+    /* optional, remove default fieldset border */
     padding: 0;
-    margin: 0 0 1.2em 0; /* bottom margin similar to inputs */
+    margin: 0 0 1.2em 0;
+    /* bottom margin similar to inputs */
 }
 
 fieldset div {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* space between checkbox and label text */
-    margin-bottom: 0.8em; /* spacing between options */
+    gap: 0.5rem;
+    /* space between checkbox and label text */
+    margin-bottom: 0.8em;
+    /* spacing between options */
 }
 
 fieldset input[type="checkbox"] {
     width: auto;
-    margin: 0; /* remove default margin */
-    padding: 0; /* remove default padding */
+    margin: 0;
+    /* remove default margin */
+    padding: 0;
+    /* remove default padding */
 }
 
 fieldset label {
-    margin: 0; /* remove default label margin */
+    margin: 0;
+    /* remove default label margin */
     font-weight: bold;
     color: #555;
     font-size: 1rem;
@@ -504,14 +512,16 @@ fieldset label {
 }
 
 .image {
-    max-width: 30%; /* Adjust width as needed */
+    max-width: 30%;
+    /* Adjust width as needed */
     height: 25rem;
     margin-right: 200px;
     margin-left: 100px;
 }
 
 .image2 {
-    max-width: 30%; /* Adjust width as needed */
+    max-width: 30%;
+    /* Adjust width as needed */
     height: 15rem;
     margin-right: 180px;
     margin-left: 120px;
@@ -532,7 +542,7 @@ fieldset label {
     padding: .2em .2em;
 }
 
-.info{
+.info {
     color: #2d89ef;
     padding-top: .5em;
     margin-top: .5em;
@@ -556,7 +566,7 @@ fieldset label {
     margin: 0 auto;
 }
 
-.payment a{
+.payment a {
     display: inline-block;
     font-size: 18px;
     line-height: 48px;
@@ -565,7 +575,20 @@ fieldset label {
     min-width: 212px;
     background-color: #006aff;
     text-align: center;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
+    border-radius: 6px;
+}
+
+.register a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 38px;
+    height: 38px;
+    color: #ffffff;
+    min-width: 160px;
+    background-color: #006aff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1) inset;
     border-radius: 6px;
 }
 
@@ -578,44 +601,46 @@ fieldset label {
     text-align: center;
 }
 
-.title{
+.title {
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
-.founder{ 
-    margin-left: 10rem ;
+
+.founder {
+    margin-left: 10rem;
 }
+
 .video {
     display: flex;
 }
 
 .video iframe,
-.video img{
+.video img {
     width: 33.33%;
 }
 
-iframe{
+iframe {
     margin-left: 10rem;
     margin-right: 2rem;
     margin-top: 1rem;
 }
 
-.birthday{
+.birthday {
     width: 50%;
     height: 20%;
-    margin-left: 10rem; 
-    margin-top: 1rem; 
+    margin-left: 10rem;
+    margin-top: 1rem;
 }
 
-.lunch{
+.lunch {
     margin: 2rem 10rem 2rem 10rem;
 }
 
-.hikers{
+.hikers {
     width: 50%;
     height: 20%;
-    margin-left: 25rem; 
+    margin-left: 25rem;
     margin-bottom: 2rem;
 }
 
