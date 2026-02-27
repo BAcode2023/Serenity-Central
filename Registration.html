@@ -120,15 +120,15 @@
           <option data-price="500" value="Buddha Day">Buddha Day</option>
           <option
             data-price="50"
-            value="Attorney Unwellness and Ethical Issues(In-person)"
+            value="Attorney Unwellness and Ethical Issues (In-person)"
           >
-            Attorney Unwellness and Ethical Issues(In-person)
+            Attorney Unwellness and Ethical Issues (In-person)
           </option>
           <option
             data-price="35"
-            value="Attorney Unwellness and Ethical Issues(Zoom)"
+            value="Attorney Unwellness and Ethical Issues (Zoom)"
           >
-            Attorney Unwellness and Ethical Issues(Zoom)
+            Attorney Unwellness and Ethical Issues (Zoom)
           </option>
           <option data-price="500" value="Mindfulness Class">
             Meditation Class
@@ -209,6 +209,7 @@
         <p>This is area is not for the Presence Process Retreat</p>
         <div class="payment">
           <a
+            id="payment-link"
             rel="noopener"
             target="_blank"
             data-url="https://square.link/u/cpfj0nUc?src=embd"
@@ -268,6 +269,25 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
-    <script></script>
+    <script>
+      const paymentLinks = {
+        50: "https://square.link/u/1EjlpWNa",
+        35: "https://square.link/u/2GXbKHMX",
+        500: "https://square.link/u/cpfj0nUc?src=embed",
+      };
+
+      const eventSelect = document.getElementById("event");
+      const paymentLink = document.getElementById("payment-link");
+
+      eventSelect.addEventListener("change", function () {
+        const selectedOption = this.options[this.selectedIndex];
+        const price = selectedOption.getAttribute("data-price");
+
+        if (price && paymentLinks[price]) {
+          paymentLink.href = paymentLinks[price];
+          paymentLink.setAttribute("data-url", paymentLinks[price]);
+        }
+      });
+    </script>
   </body>
 </html>
