@@ -441,8 +441,9 @@ ul {
 
 .payment-title {
     color: #2d89ef;
-    margin: 1em 0;
+    margin: 0.5em 0;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 
