@@ -127,8 +127,15 @@
             <p>Dates: May 16th - 17th, 2026</p>
           </li>
           <li class="event">
-            <h3 class="event__title">AVesak Celebration</h3>
+            <h3 class="event__title">Vesak Celebration</h3>
             <p>Dates: May 24th, 2026</p>
+            <div
+              class="register"
+              onclick="openModal()"
+              style="margin-top: 15px"
+            >
+              <a>View</a>
+            </div>
           </li>
           <li class="event">
             <h3 class="event__title">
@@ -175,6 +182,31 @@
           <li class="event">
             <h3 class="event__title">Women's AA Retreat</h3>
             <p>Dates: June 19th - 21st, 2026</p>
+          </li>
+          <li class="event">
+            <h3 class="event__title">
+              Stillness & Awakening: A Mindfulness and Yoga Retreat
+            </h3>
+            <p>Dates: June 26th - 28th, 2026</p>
+            <p>Time: 3:00 PM Friday to 1:00 PM Sunday</p>
+            <p style="margin-top: 10px">
+              Led by Buddhist Monk Bhante Rathana and Yoga Instructor Loretta
+              Richardson, this retreat welcomes both beginners and experienced
+              practitioners. It is a gentle invitation to slow down and
+              reconnect. Through meditation, yoga, time in nature, and mindful
+              community eating and living, we will cultivate harmony in body,
+              mind, and heart. In silence, in movement, and in the shared
+              presence of compassion-based teachings, participants will
+              experience reflection, connection, and inner stillness within a
+              peaceful and supportive environment.
+            </p>
+            <div class="register" style="margin-top: 15px">
+              <a
+                target="_blank"
+                href="./assests/images/Yoga and Meditation Retreat 6_26.pdf"
+                >Register Here</a
+              >
+            </div>
           </li>
         </ul>
       </section>
@@ -277,6 +309,11 @@
           >Register for Events</a
         >
       </div>
+
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="./assests/images/Vesak.jpeg" />
+      </div>
     </main>
 
     <!-- Footer -->
@@ -325,6 +362,6 @@
       </div>
     </footer>
 
-    <script src="./main.js"></script>
+    <script src="./assests/main.js"></script>
   </body>
 </html>
